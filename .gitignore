@@ -2,3 +2,5 @@
 00-CHelloWorld/.idea
 00-CHelloWorld/CMakeLists.txt
 00-CHelloWorld/hello
+CLion-Projects
+cmake-build-debug
