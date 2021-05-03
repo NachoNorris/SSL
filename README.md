@@ -5,18 +5,21 @@ Enunciado de [TP0](https://josemariasola.github.io/ssl/assignments/2021/Ssl%20As
 
 Enunciado de [TP1](https://josemariasola.github.io/ssl/assignments/2021/Ssl%20Assignments.pdf#page=21)
 #
-##Procesos y productos
+## Procesos y productos
 
 
-###Procesos
-Prepro
-Compilación
-Ensamblador
-Linkeo
-Entradas y Resultadps
-Fuente
-Fuente preprocesado
-José María Sola22:30
-Código ensamblador
-Código objeto
-Ejectubale
+### Procesos
+
+* Proprocesador
+* Compilación
+* Ensamblador
+* Linkeo
+* Entradas y Resultadps
+* Fuente
+* Fuente preprocesado
+
+### Archivos
+
+* Código ensamblador
+* Código objeto
+* Ejectubale
