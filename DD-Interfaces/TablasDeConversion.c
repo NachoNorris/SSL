@@ -7,16 +7,21 @@
 
 /*\*/
 int main (void){
-    double fahrenheit, celsius;
-    const double farh_min = 0;
-    const double farh_max = 300;
-    const double step = 20;
+    double min,max,step;
+    printf("Initiating temperature degree converter program!\n");
 
-    printf("Imprimiendo tabla de Fahrenheit a Celsius: Rango 0-300 F°\n");
-    for(fahrenheit = farh_min; fahrenheit<=farh_max;fahrenheit+=step)
-        printf("%3.0f F°\t %3.2f C°\n",fahrenheit,Celsius(fahrenheit));
-    printf("Imprimiendo tabla de Celsius a Fahrenheit: Rango 0-300 C°\n");
-    for(celsius = farh_min; celsius<=farh_max;celsius+=step)
-        printf("%3.1f C°\t %4.0f F°\n",celsius,Fahrenheit(celsius));
+    printf("Please, insert via keyboard the min temperature to convert:");
+    scanf("%lf",&min);
+    printf("\n\n");
+
+    printf("Please, insert via keyboard the max temperature to convert:");
+    scanf("%lf",&max);
+    printf("\n\n");
+
+    printf("Please, insert via keyboard the gap between temperatures:");
+    scanf("%lf",&step);
+    printf("\n\n");
+
+    PrintTablas(min,max,step);
     return 0;
 }
